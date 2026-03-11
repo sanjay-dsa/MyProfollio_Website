@@ -5,7 +5,7 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { motion } from 'framer-motion';
 import { styles } from '../styles'
-import { Tilt } from 'react-tilt';
+import  Tilt  from "react-parallax-tilt";
 
 const ProjectCard=({index, name, description, tags, image, source_code_link}) =>{
   return(
